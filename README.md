@@ -2,8 +2,20 @@
 
 This repository contains a Node JS SDK for the [Housemates API](https://github.com/house-mates/api).
 
+<br>
 
-#### [Documentation](https://housemates-sdk-docs.000webhostapp.com/index.html)
+### [Documentation](https://housemates-sdk-docs.000webhostapp.com/index.html)
+
+<br>
+
+### Functions
+
+| Function    | Argument    | Possible Values |
+| ----------- | ----------- | -----------     |
+| SDK.url     | route       | users, usermeta, actions, events, responses           |
+| SDK.url   | option        | id, userID, actionID, range, range-actionID, eventID            |
+| SDK.execute   | method        | POST, GET, PATCH, DELETE |
+
 <br>
 
 Example code:
