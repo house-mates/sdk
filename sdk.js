@@ -212,6 +212,9 @@ class SDK {
      * @param {string} url 
      */
     changeBaseUrl(url) {
+        if (!this.core.hasOwnProperty('initialBaseUrl')) {
+            this.core.initialBaseUrl = this.core.baseUrl
+        }
         this.core.baseUrl = url
     }
 
